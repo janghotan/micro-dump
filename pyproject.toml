@@ -1,0 +1,20 @@
+[build-system]
+requires = []
+build-backend = "micro_dump_build"
+backend-path = ["."]
+
+[project]
+name = "micro-dump"
+version = "0.1.0"
+description = "Header-only Linux packet inspection CLI"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Micro-Dump contributors"}]
+dependencies = []
+
+[project.scripts]
+micro-dump = "micro_dump.cli:main"
+
+[tool.unittest]
+start-directory = "tests"
