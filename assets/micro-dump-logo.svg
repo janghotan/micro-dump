@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Micro-Dump</title>
+  <desc id="desc">A stylized network packet entering a terminal inspection frame.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101d35"/><stop offset="1" stop-color="#172e4b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62e6c5"/><stop offset="1" stop-color="#41a9ff"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="204" height="204" rx="42" fill="url(#bg)"/>
+  <path d="M38 65h22m-22 0v22m144-22h-22m22 0v22M38 155h22m-22 0v-22m144 22h-22m22 0v-22" fill="none" stroke="#45617c" stroke-width="4" stroke-linecap="round"/>
+  <rect x="48" y="52" width="124" height="116" rx="13" fill="#0a1424" stroke="#34536d" stroke-width="3"/>
+  <path d="M48 73h124" stroke="#34536d" stroke-width="3"/>
+  <circle cx="62" cy="63" r="3" fill="#62e6c5"/><circle cx="73" cy="63" r="3" fill="#41a9ff"/><circle cx="84" cy="63" r="3" fill="#6f8298"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M67 94h21l9 10-9 10H67z"/><path d="M99 94h21l9 10-9 10H99" opacity=".78"/><path d="M132 99h20m-9-7 9 7-9 7"/>
+    <path d="M67 135h14m9 0h14m9 0h28" opacity=".9"/>
+  </g>
+  <circle cx="154" cy="137" r="5" fill="#62e6c5"/>
+</svg>

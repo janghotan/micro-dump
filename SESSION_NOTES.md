@@ -33,3 +33,11 @@ Build Micro-Dump, a Python 3.11+ Linux packet inspection CLI with a polished ter
 - Phase 6 verification: `python3 -m py_compile micro_dump/*.py micro_dump_build.py`, CLI help/version/interface-list smoke checks, wheel build, and installation into `/tmp/micro-dump-install` all succeeded. No global installation, live capture, publishing, or pushing performed.
 - Review fixes: corrected TUI row marker rendering (previous slicing removed the marker and two characters), replaced dynamic queue imports with a normal import, removed unused imports, and made IPv6 AH extension handling explicit. Added regression coverage for FIN/SYN/RST ANSI colors, bad IPv4 checksum, ICMPv6 checksum display, and fake-screen drawing.
 - Decision: initialize Git inside `micro-dump` only and commit its implementation, tests, docs, package metadata, and session notes. Ignore virtual environments, bytecode, and build outputs.
+
+## README refresh milestone (2026-10-21)
+
+- Resumed by reading these notes and verified the existing implementation commit is `c9d1b73` with a clean worktree before edits.
+- Read `/home/jangho/.agents/skills/create-readme/SKILL.md`; rewrote `README.md` in Chinese with installation, permissions, offline PCAP, filters, TUI controls, supported formats, safety boundaries, and local verification commands.
+- Added original `assets/micro-dump-logo.svg` and `assets/packet-workflow.svg`, referenced by the README using relative paths.
+- Searched GitHub installed repositories and the authenticated account's searchable repository index for `micro-dump`; both searches returned no repository. An owner-list query also returned no results. No remote metadata changes were made, and no repository was created or pushed.
+- Verification: all 24 unit tests passed; `py_compile`, CLI help/version smoke checks, wheel build, SVG XML parsing, README asset-link checks, and `git diff --check` passed. Wheel built as `micro_dump-0.1.0-py3-none-any.whl` in the pip cache; no global install occurred.
