@@ -29,7 +29,7 @@ Micro-Dump displays header-derived metadata only. Packet payload bytes are never
 
 ## Overview
 
-![Micro-Dump packet inspection pipeline](assets/packet-workflow.svg)
+![Micro-Dump packet inspection pipeline](assets/packet-workflow.en.svg)
 
 ## Installation
 
